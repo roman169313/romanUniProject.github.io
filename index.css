@@ -1,0 +1,400 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.fb:hover{
+    border-radius: 50%!important;
+    background-color: #0866FF;
+    padding: 5px;
+    
+}
+/* #ff8400d6 orange */
+.insta:hover{
+    border-radius: 50%!important;
+    background-color: #B22F92;
+    padding: 5px;
+
+}
+.tweet:hover{
+    border-radius: 50%!important;
+    background-color: #1C9CEA;
+    padding: 5px;
+
+}
+.gradient{
+    color:rgb(254,0,0);
+    color: linear-gradient(201deg, rgba(254,0,0,1) 41%, rgba(255,210,5,1) 57%, rgba(115,222,25,1) 66%, rgba(112,216,25,1) 67%, rgba(24,25,29,1) 98%, rgba(24,25,29,1) 99%, rgba(42,44,51,1) 100%, rgba(38,40,46,1) 100%, rgba(70,71,82,0.5) 100%);
+}
+.news:hover{
+    background-color: rgb(235, 42, 42)!important;
+    color:black!important;
+}
+.services{
+    background-color: whitesmoke;
+}
+.facility:hover{
+    background-color: whitesmoke;
+}
+/* a:hover{
+    color: red;
+    text-decoration: underline;
+} */
+a:hover{
+  color: gold!important;
+  margin-left: 4px!important;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media  screen and (max-width:425px) {
+  .topImage{
+    width: 317px!important;
+  }
+}
+@media  screen and (max-width:768px) and (min-width:450px) {
+  .topImage{
+    width: 435px!important;
+  }
+}
+.topImage{
+  width: 567px;
+}
+
+
+
+  .breaking-news {
+    background: #ffc107;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .news-container {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .news-scroll {
+    animation: marqueeScroll 15s linear infinite;
+  }
+
+  @keyframes marqueeScroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .news-item {
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* #22b5bbf7  dark blue  #3566dc   #35d5dc*/
+
+/* S */
+
+
+.navbar-nav .nav-link {
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .dropend .dropdown-toggle {
+    color:rgb(109, 143, 236);
+    margin-left: 1em;
+  }
+  .dropdown-item:hover {
+    background-color: rgb(250, 135, 89);
+    color: rgb(255, 255, 255);
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+    
+  }
+  .dropdown-menu{
+    background-color: transparent;
+    border: none;
+  }
+  @media screen and (max-width: 780px) and (min-width:700px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+    
+  .buttonEducation1{
+    position: relative;
+    bottom: 84px;
+    left: 254px!important;
+
+  }
+  .buttonEducation2{
+    position: relative;
+    bottom: 84px;
+    left: 250px!important;
+
+  }
+  .buttonEducation3{
+    position: relative;
+    bottom: 84px;
+    left: 239px!important;
+
+  }
+  .buttonEducation4{
+    position: relative;
+    bottom: 84px;
+    left: 240px!important;
+
+  }
+  }
+  @media screen and (max-width: 450px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      bottom: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-bottom: 0.5em;
+    }
+    
+  .buttonEducation1{
+    position: relative;
+    bottom: 84px;
+    left: 318px!important;
+
+  }
+  .buttonEducation2{
+    position: relative;
+    bottom: 84px;
+    left: 320px!important;
+
+  }
+  .buttonEducation3{
+    position: relative;
+    bottom: 84px;
+    left: 310px!important;
+
+  }
+  .buttonEducation4{
+    position: relative;
+    bottom: 84px;
+    left: 309px!important;
+
+  }
+  }
+  .dropdown-toggle::after {
+    content: none!important;
+  }
+  .nav-item:hover{
+    background-color:#35d4dce6!important;
+    color: white!important;
+    border-bottom: #0866FF!important;
+  }
+  .dropdown-item,.dropend{
+    background: rgb(0, 153, 255);
+    margin: 3px;
+    border-radius: 5px;
+    color: white;
+  }
+  .aboutHeading::before{
+    content: "";
+    color: #0866FF;
+    width: 10px;
+    
+  }
+  .blueBgColor{
+    background-color: #3566dc!important;
+  }
+  .blueHighBgColor{
+    background-color: #ff8400d6!important;
+
+  }
+  .blueHighColor{
+    color: #3566dc!important;
+    text-transform: uppercase;
+  }
+  .About_Us{
+    background: url(assets/bg-1.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-color: #808080a3;
+    background-blend-mode: color-burn;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .card {
+    transition: 0.3s;
+  }
+
+  .element {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .card:hover {
+    opacity: 0.6;
+    background: rgb(14, 13, 13);
+  }
+
+  .card:hover .element {
+    visibility: visible;
+  }
+
+  .buttonEducation1{
+    position: relative;
+    bottom: 84px;
+    left: 368px;
+
+  }
+  .buttonEducation2{
+    position: relative;
+    bottom: 84px;
+    left: 363px;
+
+  }
+  .buttonEducation3{
+    position: relative;
+    bottom: 84px;
+    left: 350px;
+
+  }
+  .buttonEducation4{
+    position: relative;
+    bottom: 84px;
+    left: 349px;
+
+  }
+
+  @media  screen and (min-width:1400px) {
+    .buttonEducation1{
+      position: relative;
+      bottom: 84px;
+      left: 549px;
+  
+    }
+    .buttonEducation2{
+      position: relative;
+      bottom: 84px;
+      left: 542px;
+  
+    }
+    .buttonEducation3{
+      position: relative;
+      bottom: 84px;
+      left: 528px;
+  
+    }
+    .buttonEducation4{
+      position: relative;
+      bottom: 84px;
+      left: 532px;
+  
+    }
+  }
+  @media  screen and (min-width:1300px) and (max-width:1400px) {
+    .buttonEducation1{
+      position: relative;
+      bottom: 84px;
+      left: 462px;
+  
+    }
+    .buttonEducation2{
+      position: relative;
+      bottom: 84px;
+      left: 462px;
+  
+    }
+    .buttonEducation3{
+      position: relative;
+      bottom: 84px;
+      left: 443px;
+  
+    }
+    .buttonEducation4{
+      position: relative;
+      bottom: 84px;
+      left: 443px;
+  
+    }
+  }
+  .eduBtn{
+    background-color: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 100%;
+    padding: 25px;
+  }
+ /* .navbarContainer{
+  position: sticky;
+  top: 0;
+  background-color: #e2ebf3;
+  z-index: 10000000;
+ } */
+
+
+.yellowish{
+  color: gold;
+}
+.facultyColor{
+  background-color: #3566dc;
+ border-top-left-radius: 50px;
+ border-top-right-radius: 50px;
+ border-bottom-left-radius: 50px;
+ border-bottom-right-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.owl-carousel .owl-item img {
+    width: 50%!important;
+    margin: auto;
+}
+.carousel-caption{
+  bottom: 10.75rem!important;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.carousel-item-next .carousel-caption,
+.carousel-item-prev .carousel-caption {
+  opacity: 0;
+  transform: translateY(-50%) translateX(100%);
+}
